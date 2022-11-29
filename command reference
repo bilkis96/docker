@@ -3,3 +3,20 @@
   121  snap install docker
   122  systemctl status docker
   123  docker --version
+  cd docker
+  169  sudo usermod -aG docker $USER
+  170  newgrp docker
+  171  sudo usermod -aG docker student
+  172  echo $USER
+  173  env
+  174  docker images
+  175  docker images
+  176  docker pull hello-world
+  177  sudo docker pull hello-world
+  178  systemctl status docker
+  179   docker pull busybox
+  180  sudo  docker pull busybox
+  181  sudo  docker pull alpine
+  182  sudo docker run hello-world
+  docker build -t my-python-app .
+docker run -it --rm --name my-running-app my-python-app
