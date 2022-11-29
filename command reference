@@ -1,0 +1,5 @@
+  119  apt update
+  120  apt install docker.io -y
+  121  snap install docker
+  122  systemctl status docker
+  123  docker --version
